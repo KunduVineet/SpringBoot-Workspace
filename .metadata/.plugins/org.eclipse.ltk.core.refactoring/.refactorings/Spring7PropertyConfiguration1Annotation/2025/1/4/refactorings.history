@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Spring7PropertyConfiguration1Annotation&apos;&#x0D;&#x0A;- Original project: &apos;Spring7PropertyConfiguration1Annotation&apos;&#x0D;&#x0A;- Original element: &apos;Spring7PropertyConfiguration1Annotation/src/in.vk.resources&apos;" description="Delete element" element1="/src&lt;in.vk.resources" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1737281108445" subPackages="false" version="1.0"/>
+</session>
