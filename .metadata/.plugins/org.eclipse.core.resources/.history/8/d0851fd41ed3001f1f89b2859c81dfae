@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Spring3 {
-	requires spring.context;
-}

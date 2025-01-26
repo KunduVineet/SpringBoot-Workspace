@@ -1,9 +1,0 @@
-package in.vk.resources;
-
-import in.vk.beans.Student;
-
-public class Resource {
-	
-	Student std = new Student();
-
-}
