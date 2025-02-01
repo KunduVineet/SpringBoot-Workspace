@@ -10,7 +10,8 @@ public class App
 {
     public static void main( String[] args )
     {
-    	ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+    	@SuppressWarnings("resource")
+		ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
     	
     	BankTransaction bt = context.getBean(BankTransaction.class);
     	
