@@ -29,7 +29,6 @@ public class App
 		} catch (SQLException e) {
 			// TODO: handle exception
 			e.printStackTrace();
-
 		}
     }
 }
