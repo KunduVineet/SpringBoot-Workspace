@@ -11,7 +11,6 @@ public class App
 {
     public static void main( String[] args )
     {
-    	
     	MapSqlParameterSource params = new MapSqlParameterSource();
     	params.addValue("name", "Vineet");
     	params.addValue("email", "advn@gmail.com");
