@@ -31,7 +31,6 @@ public class StudentDAOImplemented implements StudentDAO {
 			status = false;
 			e.printStackTrace();
 			// TODO: handle exception
-
 		}
 		return status;
 	}
