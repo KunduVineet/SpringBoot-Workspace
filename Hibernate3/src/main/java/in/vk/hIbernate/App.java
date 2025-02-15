@@ -23,7 +23,8 @@ public class App {
 		Transaction transaction = session.beginTransaction();
 
 		try {
-			session.save(std);
+			int id = (int) session.save(std);
+			System.out.println(id);
 			System.out.println("Success");
 
 			transaction.commit();
