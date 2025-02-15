@@ -1,0 +1,21 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+	<hibernate-configuration>
+		
+		<session-factory>
+		
+			<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+			<property name="connection.url">jdbc:mysql://localhost:3306/dao_db</property>
+			<property name="connection.user">root</property>
+			<property name="connection.password">8287685215</property>
+			
+			<property name="hbm2ddl.auto">update</property>
+			
+			
+			<mapping class="in.vk.beans.Employee"/>
+			
+		</session-factory>
+		
+	</hibernate-configuration>
