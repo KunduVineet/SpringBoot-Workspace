@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+    <class name="in.vk.beans.Student" table="std_register">
+        
+        <!-- Primary Key Mapping -->
+        <id name="id" column="stdid">
+            <generator class="increment"/>
+        </id>
+        
+        <!-- Property Mappings -->
+        <property name="name" column="name" type="string"/>
+        <property name="rollno" column="rollno" type="int"/>
+        <property name="city" column="city" type="string"/>
+        
+    </class>
+</hibernate-mapping>
