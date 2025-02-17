@@ -1,13 +1,25 @@
 package in.vk.main;
 
-/**
- * Hello world!
- *
- */
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import in.vk.beans.Student;
+import in.vk.dao.StudentDAO;
+
 public class App 
 {
-    public static void main( String[] args )
+    @SuppressWarnings("resource")
+	public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Student std = new Student();
+    	std.setId(1);
+    	std.setName("Vineet Kundu");
+    	std.setRollno(112);
+    	std.setCity("Gurgaon");
+    	
+    	
+    	ApplicationContext applicationContext = new ClassPathXmlApplicationContext("/in/vk/resources/applicationContext.xml"); 
+    	StudentDAO studentDAO =  (StudentDAO) applicationContext.getBean("stdDaoImpl");
+    	studentDAO.addStdDetails(std);
     }
 }

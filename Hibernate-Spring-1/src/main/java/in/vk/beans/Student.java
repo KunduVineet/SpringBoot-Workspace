@@ -7,7 +7,6 @@ public class Student {
 	private int rollno;
 	private String city;
 	
-	
 	public int getId() {
 		return id;
 	}
@@ -32,6 +31,5 @@ public class Student {
 	public void setCity(String city) {
 		this.city = city;
 	}
-	
 	
 }
