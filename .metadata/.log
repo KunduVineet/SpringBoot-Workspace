@@ -1739,3 +1739,27 @@ Caused by: java.io.FileNotFoundException: C:\Users\kundu\AppData\Local\warp\Warp
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-17 21:43:28.003
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-18 17:00:43.938
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-18 17:00:43.949
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-18 17:00:43.951
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-18 17:00:43.955
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-18 17:00:43.980
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-18 17:00:43.998
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-02-18 17:02:07.394
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.5.2.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.5.2.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-02-18 18:34:54.123
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.5.2.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.5.2.Final
