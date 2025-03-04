@@ -2209,3 +2209,267 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2025-03-03 23:35:00,031 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-03-03 23:35:00,035 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-03-03 23:35:00,037 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-3\src\test\resources
+2025-03-04 10:06:35,430 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-04 10:10:31,852 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313 [644])
+2025-03-04 10:10:31,871 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313
+2025-03-04 10:10:31,872 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\aopalliance-1.0.jar
+2025-03-04 10:10:31,873 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\guice-5.1.0.jar
+2025-03-04 10:10:31,873 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\httpclient-4.5.14.jar
+2025-03-04 10:10:31,874 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\httpcore-4.4.16.jar
+2025-03-04 10:10:31,874 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\jansi-2.4.1.jar
+2025-03-04 10:10:31,874 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\jcl-over-slf4j-1.7.36.jar
+2025-03-04 10:10:31,875 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-artifact-3.9.7.jar
+2025-03-04 10:10:31,875 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-builder-support-3.9.7.jar
+2025-03-04 10:10:31,876 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-compat-3.9.7.jar
+2025-03-04 10:10:31,876 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-core-3.9.7.jar
+2025-03-04 10:10:31,878 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-embedder-3.9.7.jar
+2025-03-04 10:10:31,878 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-model-3.9.7.jar
+2025-03-04 10:10:31,879 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-model-builder-3.9.7.jar
+2025-03-04 10:10:31,879 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-plugin-api-3.9.7.jar
+2025-03-04 10:10:31,880 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-repository-metadata-3.9.7.jar
+2025-03-04 10:10:31,880 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-api-1.9.20.jar
+2025-03-04 10:10:31,881 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-connector-basic-1.9.20.jar
+2025-03-04 10:10:31,881 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-impl-1.9.20.jar
+2025-03-04 10:10:31,882 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-named-locks-1.9.20.jar
+2025-03-04 10:10:31,882 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-provider-3.9.7.jar
+2025-03-04 10:10:31,883 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-spi-1.9.20.jar
+2025-03-04 10:10:31,883 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-file-1.9.20.jar
+2025-03-04 10:10:31,884 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-http-1.9.20.jar
+2025-03-04 10:10:31,884 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-wagon-1.9.20.jar
+2025-03-04 10:10:31,885 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-util-1.9.20.jar
+2025-03-04 10:10:31,885 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-settings-3.9.7.jar
+2025-03-04 10:10:31,886 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-settings-builder-3.9.7.jar
+2025-03-04 10:10:31,886 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-shared-utils-3.4.2.jar
+2025-03-04 10:10:31,887 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2025-03-04 10:10:31,887 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2025-03-04 10:10:31,888 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-build-api-0.0.7.jar
+2025-03-04 10:10:31,888 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-build-api-1.2.0.jar
+2025-03-04 10:10:31,888 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-cipher-2.0.jar
+2025-03-04 10:10:31,889 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-classworlds-2.8.0.jar
+2025-03-04 10:10:31,890 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-component-annotations-2.1.0.jar
+2025-03-04 10:10:31,890 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-interpolation-1.27.jar
+2025-03-04 10:10:31,891 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-sec-dispatcher-2.0.jar
+2025-03-04 10:10:31,891 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-utils-3.5.1.jar
+2025-03-04 10:10:31,892 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-file-3.5.3.jar
+2025-03-04 10:10:31,892 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-http-3.5.3.jar
+2025-03-04 10:10:31,892 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-http-shared-3.5.3.jar
+2025-03-04 10:10:31,894 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-provider-api-3.5.3.jar
+2025-03-04 10:10:31,897 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.2.0.jre [16])
+2025-03-04 10:10:31,898 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\com.google.guava_33.2.0.jre.jar
+2025-03-04 10:10:31,898 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.13 [1009])
+2025-03-04 10:10:31,899 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\slf4j.api_2.0.13.jar
+2025-03-04 10:10:31,899 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [33])
+2025-03-04 10:10:31,901 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-03-04 10:10:31,901 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [44])
+2025-03-04 10:10:31,902 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2025-03-04 10:10:31,902 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.8.0 [78])
+2025-03-04 10:10:31,903 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.apache.commons.cli_1.8.0.jar
+2025-03-04 10:10:31,903 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2025-03-04 10:10:31,905 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-03-04 10:10:31,905 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [89])
+2025-03-04 10:10:31,906 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2025-03-04 10:10:31,906 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2025-03-04 10:10:31,907 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kundu\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-03-04 10:10:31,921 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\kundu\AppData\Local\Temp\m2e-archetypeGenerator415440244464136835":
+2025-03-04 10:10:31,929 [Worker-27: Launching mavenrun-f89d9376-bd9b-47a9-a695-6387545a0d5c] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.0 -DgroupId=in.vineetkundu -DartifactId=Spring-WEB-MVC-4-HttpSession -Dversion=1.0 -Dpackage=in.vk.main -DoutputDirectory="C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot" -Dstyle.color=always -U archetype:generate
+2025-03-04 10:11:04,314 [Worker-29: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\pom.xml
+2025-03-04 10:11:06,561 [Worker-29: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: in.vineetkundu:Spring-WEB-MVC-4-HttpSession:1.0 @ C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\pom.xml.
+2025-03-04 10:11:08,404 [Worker-29: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring-WEB-MVC-4-HttpSession/src/main/java
+2025-03-04 10:11:08,408 [Worker-29: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Spring-WEB-MVC-4-HttpSession/src/main/resources
+2025-03-04 10:11:08,410 [Worker-29: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring-WEB-MVC-4-HttpSession/src/test/java
+2025-03-04 10:11:08,412 [Worker-29: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Spring-WEB-MVC-4-HttpSession/src/test/resources
+2025-03-04 10:11:10,355 [Worker-29: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-03-04 10:11:12,540 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:11:12,565 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:11:12,576 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:11:12,578 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:11:45,393 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:11:45,400 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:11:45,407 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:11:45,408 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:12:12,515 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: in.vineetkundu:Spring-WEB-MVC-4-HttpSession:1.0 @ C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\pom.xml.
+2025-03-04 10:12:13,771 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:12:13,776 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:12:13,782 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:12:13,784 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:12:13,788 [Worker-29: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring-WEB-MVC-4-HttpSession
+2025-03-04 10:12:13,789 [Worker-29: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring-WEB-MVC-4-HttpSession
+2025-03-04 10:15:02,676 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:15:02,681 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:15:02,685 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:15:02,687 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:16:20,077 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:16:20,080 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:16:20,082 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:16:20,082 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:17:11,397 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:17:11,399 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:17:11,404 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:17:11,405 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:18:17,314 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:18:17,317 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:18:17,321 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:18:17,323 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:18:32,295 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:18:32,298 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:18:32,300 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:18:32,302 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:19:49,006 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:19:49,009 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:19:49,013 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:19:49,014 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:20:42,140 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:20:42,144 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:20:42,148 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:20:42,150 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:21:28,485 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:21:28,488 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:21:28,492 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:21:28,494 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:21:47,729 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:21:47,731 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:21:47,736 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:21:47,737 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:22:42,032 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:22:42,035 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:22:42,040 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:22:42,042 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:22:47,813 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:22:47,817 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:22:47,821 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:22:47,823 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:23:31,351 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:23:31,354 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:23:31,359 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:23:31,361 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:24:51,657 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:24:51,660 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:24:51,665 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:24:51,667 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:24:57,845 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:24:57,847 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:24:57,851 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:24:57,852 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:26:34,503 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:26:34,506 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:26:34,510 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:26:34,512 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:27:07,119 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:27:07,123 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:27:07,127 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:27:07,128 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:27:22,459 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:27:22,461 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:27:22,464 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:27:22,465 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:30:27,981 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:30:27,985 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:30:27,990 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:30:27,992 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:31:14,540 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:31:14,542 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:31:14,546 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:31:14,547 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:31:26,560 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:31:26,562 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:31:26,567 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:31:26,570 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:33:57,263 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:33:57,268 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:33:57,272 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:33:57,274 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:34:10,519 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:34:10,523 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:34:10,526 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:34:10,528 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:36:10,772 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: in.vineetkundu:Spring-WEB-MVC-4-HttpSession:1.0 @ C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\pom.xml.
+2025-03-04 10:36:11,241 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+2025-03-04 10:36:11,263 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+2025-03-04 10:36:11,385 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.jar
+2025-03-04 10:36:11,476 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.jar
+2025-03-04 10:36:13,187 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:36:13,193 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:36:13,200 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:36:13,201 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:36:13,202 [Worker-31: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring-WEB-MVC-4-HttpSession
+2025-03-04 10:36:13,202 [Worker-31: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring-WEB-MVC-4-HttpSession
+2025-03-04 10:36:14,308 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2-sources.jar
+2025-03-04 10:36:14,317 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for jstl:jstl:1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar:sources:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-03-04 10:37:40,044 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:37:40,047 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:37:40,051 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:37:40,053 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:39:43,106 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:39:43,108 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:39:43,114 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:39:43,114 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:44:12,348 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: in.vineetkundu:Spring-WEB-MVC-4-HttpSession:1.0 @ C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\pom.xml.
+2025-03-04 10:44:12,391 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.pom
+2025-03-04 10:44:12,399 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.pom
+2025-03-04 10:44:12,422 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom
+2025-03-04 10:44:12,430 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom
+2025-03-04 10:44:12,492 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.pom
+2025-03-04 10:44:12,503 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.pom
+2025-03-04 10:44:12,579 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar
+2025-03-04 10:44:12,606 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar
+2025-03-04 10:44:12,623 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar
+2025-03-04 10:44:12,639 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar
+2025-03-04 10:44:12,643 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar
+2025-03-04 10:44:12,676 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar
+2025-03-04 10:44:13,823 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:44:13,828 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:44:13,832 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:44:13,834 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
+2025-03-04 10:44:13,834 [Worker-3: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring-WEB-MVC-4-HttpSession
+2025-03-04 10:44:13,834 [Worker-3: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring-WEB-MVC-4-HttpSession
+2025-03-04 10:44:14,703 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3-sources.jar
+2025-03-04 10:44:14,734 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3-sources.jar
+2025-03-04 10:44:14,744 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.9.3
+2025-03-04 10:44:14,801 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3-sources.jar
+2025-03-04 10:44:14,822 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3-sources.jar
+2025-03-04 10:44:14,832 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.9.3
+2025-03-04 10:44:14,873 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2-javadoc.jar
+2025-03-04 10:44:14,878 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for jstl:jstl:1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar:javadoc:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-03-04 10:44:14,917 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0-sources.jar
+2025-03-04 10:44:14,957 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0-sources.jar
+2025-03-04 10:44:14,964 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet:jakarta.servlet-api:6.0.0
+2025-03-04 10:45:46,204 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:45:46,209 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-04 10:45:46,213 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-03-04 10:45:46,215 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-WEB-MVC-4-HttpSession\src\test\resources
