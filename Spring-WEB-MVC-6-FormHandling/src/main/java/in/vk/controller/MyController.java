@@ -30,7 +30,7 @@ public class MyController {
 		std.setName(name);
 		std.setCity(city);
 		std.setEmail(email);
-		std.setGender(gender);
+		std.setGender(gender); 
 		std.setPassword(password);
 		
 		model.addAttribute("model_std", std);
