@@ -140,7 +140,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Spring-WEB-MVC-8-Validation" path="/Spring-WEB-MVC-8-Validation" reloadable="true" source="org.eclipse.jst.j2ee.server:Spring-WEB-MVC-8-Validation"/><Context docBase="Spring-WEB-MVC-9-Error-Exception" path="/Spring-WEB-MVC-9-Error-Exception" reloadable="true" source="org.eclipse.jst.j2ee.server:Spring-WEB-MVC-9-Error-Exception"/><Context docBase="JSP-include1" path="/JSP-include1" reloadable="true" source="org.eclipse.jst.jee.server:JSP-include1"/><Context docBase="SpringMVCTiles1" path="/SpringMVCTiles1" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringMVCTiles1"/></Host>
+      <Context docBase="Spring-WEB-MVC-8-Validation" path="/Spring-WEB-MVC-8-Validation" reloadable="true" source="org.eclipse.jst.j2ee.server:Spring-WEB-MVC-8-Validation"/><Context docBase="Spring-WEB-MVC-9-Error-Exception" path="/Spring-WEB-MVC-9-Error-Exception" reloadable="true" source="org.eclipse.jst.j2ee.server:Spring-WEB-MVC-9-Error-Exception"/><Context docBase="JSP-include1" path="/JSP-include1" reloadable="true" source="org.eclipse.jst.jee.server:JSP-include1"/><Context docBase="SpringMVCTiles1" path="/SpringMVCTiles1" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringMVCTiles1"/><Context docBase="FilesUpload1" path="/FilesUpload1" reloadable="true" source="org.eclipse.jst.j2ee.server:FilesUpload1"/></Host>
     </Engine>
   </Service>
 </Server>
