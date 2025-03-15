@@ -69,6 +69,11 @@
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.5</version>
 		</dependency>
+		<dependency>
+			<groupId>in.vineetkundu</groupId>
+			<artifactId>Spring-WEB-MVC-1</artifactId>
+			<version>1.0</version>
+		</dependency>
   </dependencies>
   <build>
     <finalName>Spring-WEB-APP-JAVA1</finalName>
