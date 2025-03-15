@@ -5237,3 +5237,12 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-15 18:17:45.901
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-15 18:46:21.872
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:8.0.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:8.0.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-15 18:46:22.261
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-15 18:46:22.267
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
