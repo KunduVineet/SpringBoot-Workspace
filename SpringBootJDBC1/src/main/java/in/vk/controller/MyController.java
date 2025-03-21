@@ -2,7 +2,8 @@ package in.vk.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class MyController {
@@ -12,8 +13,13 @@ public class MyController {
 		return "index";
 	}
 	
-	@RequestMapping("/loginPage")
+	@GetMapping("/loginPage")
 	public String openLoginPage() {
 		return "Login";
+	}
+	
+	@PostMapping("/LoginForm")
+	public String Login(@RequestParam("username") String email, @RequestParam ("password")String password) {
+		return "";
 	}
 }
