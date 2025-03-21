@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h1>Welcome to SpringBoot JDBC</h1>
-	<a href="LoginPage">Click Here</a> to go to Login Page
+	<a href="loginPage">Click Here</a> to go to Login Page
 </body>
 </html>

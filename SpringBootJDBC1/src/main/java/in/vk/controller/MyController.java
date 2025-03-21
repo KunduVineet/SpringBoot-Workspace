@@ -12,8 +12,8 @@ public class MyController {
 		return "index";
 	}
 	
-	@RequestMapping("/LoginPage")
+	@RequestMapping("/loginPage")
 	public String openLoginPage() {
-		return "login";
+		return "Login";
 	}
 }
