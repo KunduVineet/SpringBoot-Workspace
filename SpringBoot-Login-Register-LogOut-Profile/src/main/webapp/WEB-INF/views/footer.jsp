@@ -59,10 +59,10 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="home.jsp">Home</a></li>
-                    <li><a href="about.jsp">About Us</a></li>
-                    <li><a href="services.jsp">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">

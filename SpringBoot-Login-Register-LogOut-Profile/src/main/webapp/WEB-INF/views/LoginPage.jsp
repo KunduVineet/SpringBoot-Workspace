@@ -126,14 +126,14 @@
     <div class="container">
         <div class="login-container">
             <h2>Login Form</h2>
-            <form action="/login" method="post">
+            <form action="loginform" method="post">
                 <div class="form-group">
                     <label for="username">Username:</label>
-                    <input type="text" id="username" name="username" placeholder="aaa@gmail.com" required>
+                    <input type="text" id="username" name="username" placeholder="your-gmail-address@gmail.com" required>
                 </div>
                 <div class="form-group">
                     <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" placeholder="********" required>
+                    <input type="password" id="password" name="password" placeholder="password" required>
                 </div>
                 <input type="submit" value="Login">
             </form>
