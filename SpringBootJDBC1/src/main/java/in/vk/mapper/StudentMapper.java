@@ -25,7 +25,7 @@ public class StudentMapper implements RowMapper<Student> {
 		student.setCity(city1);
 		student.setGender(gender1);
 
-		return null;
+		return student;
 	}
 
 }
