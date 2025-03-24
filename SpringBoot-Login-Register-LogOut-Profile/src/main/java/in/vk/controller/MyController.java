@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import in.vk.beans.Student;
 import in.vk.service.LoginService;
+import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class MyController {
@@ -54,19 +55,34 @@ public class MyController {
 	LoginService loginService;
 	
 	@PostMapping("/loginform")
-	public String Login(@RequestParam("username") String email, @RequestParam ("password")String password, Model model) {
+	public String Login(@RequestParam("username") String email, @RequestParam ("password")String password, HttpSession session) {
 		
 		String page = "error";
 		List<Student> students_list =  loginService.loginservice(email, password);
 		
 		if(students_list.size() != 0) {
-			model.addAttribute("model_student",students_list.get(0));
+			session.setAttribute("session_name",students_list.get(0).getName());
+			session.setAttribute("session_email",students_list.get(0).getEmail());
+			session.setAttribute("session_city",students_list.get(0).getCity());
+			session.setAttribute("session_gender",students_list.get(0).getGender());
+
 			page = "profile";
 		}
 		else {
 			page = "error";
 		}
 		return page;
+	}
+
+	@GetMapping("/profile")
+	public String openProfilePage() {
+		return "profile";
+	}
+	
+	@GetMapping("/logOut")
+	public String logOut(HttpSession session) {
+		session.invalidate();
+		return "login";
 	}
 
 }

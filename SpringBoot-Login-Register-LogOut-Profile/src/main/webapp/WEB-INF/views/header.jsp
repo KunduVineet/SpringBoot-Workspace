@@ -84,7 +84,31 @@
 </style>
 </head>
 <body>
-    <header>
+<%
+	String name = (String) session.getAttribute("session_name");
+	if(name != null){
+		%>
+		 <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+         <div class="auth-buttons">
+            <a href="profile" class="login-btn"><%= name %></a>
+            <a href="logOut" class="register-btn">LogOut</a>
+        </div>
+       
+    </header>
+		<%
+	
+}	 else{
+	%>
+	 <header>
         <h1>My Website</h1>
         <nav>
             <ul>
@@ -99,5 +123,9 @@
             <a href="register" class="register-btn">Register</a>
         </div>
     </header>
+    <% 
+}
+%>
+   
 </body>
 </html>

@@ -9,9 +9,8 @@
 <body>
     <jsp:include page="header.jsp"/>
 
-	<h2>Welcome : ${model_student.getName()}</h2>
+	<h2>Welcome : ${session_name}</h2>
 	
 	    <jsp:include page="footer.jsp"/>
-	
 </body>
 </html>
