@@ -91,15 +91,15 @@
             <form action="/register" method="post">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name1" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email1" required>
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
+                    <input type="password" id="password" name="password1" required>
                 </div>
                 <div class="form-group">
                     <label>Gender</label>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="form-group">
                     <label for="city">City</label>
-                    <input type="text" id="city" name="city" required>
+                    <input type="text" id="city" name="city1" required>
                 </div>
                 <button type="submit">Register</button>
             </form>

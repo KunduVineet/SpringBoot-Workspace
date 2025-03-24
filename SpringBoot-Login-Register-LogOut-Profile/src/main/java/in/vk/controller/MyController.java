@@ -11,10 +11,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import in.vk.beans.Student;
 import in.vk.service.LoginService;
+import in.vk.service.RegisterServiceImpl;
+import in.vk.service.RegisterServices;
 import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class MyController {
+
+    private final RegisterServiceImpl registerServiceImpl;
+
+    MyController(RegisterServiceImpl registerServiceImpl) {
+        this.registerServiceImpl = registerServiceImpl;
+    }
 	
 	@GetMapping("/")
 	public String openHomepage() {
@@ -83,6 +91,30 @@ public class MyController {
 	public String logOut(HttpSession session) {
 		session.invalidate();
 		return "login";
+	}
+	
+	@Autowired
+	RegisterServices registerServices;
+	
+	public String register(@RequestParam("name1") String name, @RequestParam("email1") String email, 
+			@RequestParam("password1") String password, @RequestParam("gender1") String gender, @RequestParam("city1") String city) {
+		
+		Student std = new Student();
+		std.setName(name);
+		std.setEmail(email);
+		std.setPassword(password);
+		std.setCity(city);
+		std.setGender(gender);
+		
+		boolean status = registerServices.registerService(std);
+		String page = "error";
+		
+		if(status) {
+			page = "Success";
+		}	else {
+			 page = "error";
+		}
+		return page;
 	}
 
 }
