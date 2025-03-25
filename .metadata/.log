@@ -9637,3 +9637,15 @@ END
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-25 17:23:31.771
 !MESSAGE Started org.springframework.tooling.boot.ls LS process 11052
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-25 18:51:58.254
+!MESSAGE Classpath changed for project: SpringBoot-Data-JDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-25 18:51:58.256
+!MESSAGE Boot project ADDED: SpringBoot-Data-JDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-25 18:52:00.793
+!MESSAGE Classpath changed for project: SpringBoot-Data-JDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-25 18:52:03.910
+!MESSAGE Classpath changed for project: SpringBoot-Data-JDBC
