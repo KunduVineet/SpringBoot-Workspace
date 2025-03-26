@@ -6,6 +6,12 @@ public class Student {
 	private String city;
 	
 	
+	public Student(String name, String gender, String city) {
+		this.name = name;
+		this.gender = gender;
+		this.city = city;
+	}
+	
 	public String getName() {
 		return name;
 	}

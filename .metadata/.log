@@ -9688,3 +9688,15 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-26 15:39:36.228
 !MESSAGE Classpath changed for project: RESTful-APIs-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-26 15:57:42.816
+!MESSAGE Classpath changed for project: CRUD-Operations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-26 15:57:42.818
+!MESSAGE Boot project ADDED: CRUD-Operations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-26 15:57:45.002
+!MESSAGE Classpath changed for project: CRUD-Operations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-26 15:57:45.912
+!MESSAGE Classpath changed for project: CRUD-Operations

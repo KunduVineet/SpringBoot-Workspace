@@ -11,10 +11,7 @@ public class MyController {
 	
 	@GetMapping("/Student")
 	public Student printStdDetails() {
-		Student std = new Student();
-		std.setName("Vineet Kundu");
-		std.setGender("Male");
-		std.setCity("Gurgaon");
+		Student std = new Student("mayank Arya", "Female", "GB Road");
 		
 		return std;
 	}
