@@ -9649,3 +9649,12 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-25 18:52:03.910
 !MESSAGE Classpath changed for project: SpringBoot-Data-JDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-26 11:30:51.979
+!MESSAGE Classpath changed for project: RESTful-APIs-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-26 11:30:51.982
+!MESSAGE Boot project ADDED: RESTful-APIs-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-26 11:30:54.618
+!MESSAGE Classpath changed for project: RESTful-APIs-1

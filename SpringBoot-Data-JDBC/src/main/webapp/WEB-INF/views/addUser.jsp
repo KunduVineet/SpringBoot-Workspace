@@ -76,7 +76,7 @@
                 </select>
             </div>
             
-            <input type="submit" value="Submit">
+            <input type="submit" value="Add User">
         </form>
     </div>
 </body>
