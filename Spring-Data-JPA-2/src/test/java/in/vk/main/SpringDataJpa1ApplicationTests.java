@@ -25,4 +25,10 @@ class SpringDataJpa1ApplicationTests {
 		User save = userService.save(user);
 		System.out.println(save.getName());
 	}
+	
+	@Test
+	public void getUserbyIdTest() {
+		User user = userService.getUserbyId(2);
+		System.out.println(user.getName());
+	}
 }
