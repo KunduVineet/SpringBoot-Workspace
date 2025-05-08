@@ -82,3 +82,12 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 11:26:40.908
+!MESSAGE Classpath changed for project: Spring-Data-JPA-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 11:26:43.433
+!MESSAGE Classpath changed for project: Spring-Data-JPA-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 11:26:43.434
+!MESSAGE Boot project ADDED: Spring-Data-JPA-2
