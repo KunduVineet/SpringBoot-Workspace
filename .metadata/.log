@@ -244,3 +244,12 @@ org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type com
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 19:14:54.035
+!MESSAGE Classpath changed for project: Spring-Data-JPA-4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 19:14:58.096
+!MESSAGE Classpath changed for project: Spring-Data-JPA-4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 19:14:58.097
+!MESSAGE Boot project ADDED: Spring-Data-JPA-4
