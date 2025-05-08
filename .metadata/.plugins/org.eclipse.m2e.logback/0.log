@@ -7902,3 +7902,36 @@ org.eclipse.core.runtime.CoreException: Launch configuration Main (33) reference
 2025-05-08 11:55:21,518 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-05-08 11:55:21,520 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-05-08 11:55:21,523 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:12:41,775 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-08 13:12:41,859 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:12:41,866 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:13:36,314 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-08 13:13:36,351 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:13:36,357 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:13:48,855 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-08 13:13:48,897 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:13:48,901 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:15:07,545 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-08 13:15:07,566 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:15:07,568 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:15:14,615 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-08 13:15:14,622 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:15:14,625 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:19:56,834 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-08 13:19:56,888 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:19:56,894 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:21:35,372 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:21:35,373 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:21:35,377 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:21:56,028 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:21:56,030 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:21:56,033 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:22:21,154 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:22:21,156 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:22:21,160 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:23:43,075 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-08 13:23:43,081 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:23:43,084 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources
+2025-05-08 13:24:17,570 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-08 13:24:17,576 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-08 13:24:17,579 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Data-JPA-2\src\test\resources

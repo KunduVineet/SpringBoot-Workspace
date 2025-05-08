@@ -2,6 +2,7 @@ package in.vk.main.entities;
 
 import in.vk.main.dto.UserType;
 import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -23,10 +24,22 @@ public class User {
 	@Transient
 	private String extra_info;
 	
-	private UserType type = UserType.STUDENT;
+	@Enumerated(EnumType.STRING)
+	private UserType type = UserType.DIRECTOR;
+	
+	@Embedded
+	private Address address;
 	
 	public String getExtra_info() {
 		return extra_info;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
 	}
 
 	public void setExtra_info(String extra_info) {
