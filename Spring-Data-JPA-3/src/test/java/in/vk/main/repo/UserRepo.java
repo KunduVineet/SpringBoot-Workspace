@@ -18,12 +18,22 @@ public class UserRepo {
 	@Test
 	public void repoTest1() {
 	Optional<User> userOptional = userRepository.findByEmailOrderByNameAsc("abc@gmail.com");
+//	
+//	userOptional.ifPresent(user ->{
+//		System.out.println(user.getUser_id());
+//		System.out.println(user.getName());
+//		System.out.println(user.getEmail());
+//		
+//	});
 	
-	userOptional.ifPresent(user ->{
+
+	userOptional.ifPresentOrElse(user ->{
 		System.out.println(user.getUser_id());
 		System.out.println(user.getName());
 		System.out.println(user.getEmail());
 		
+	},() ->{
+		System.out.println("User not found");
 	});
 	}
 }
