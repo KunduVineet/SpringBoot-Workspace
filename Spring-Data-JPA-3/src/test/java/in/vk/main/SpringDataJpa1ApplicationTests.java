@@ -18,9 +18,9 @@ class SpringDataJpa1ApplicationTests {
 	@Test
 	public void testUser() {
 		User user = new User();
-		user.setUser_id(3);
-		user.setName("Mannu_bkl");
-		user.setEmail("mannu_noob_bkl@6gmail.com");
+		user.setUser_id(8);
+		user.setName("Mannu");
+		user.setEmail("mannu__bkl@6gmail.com");
 		user.setType(UserType.STUDENT);
 		
 		Address address = new Address();

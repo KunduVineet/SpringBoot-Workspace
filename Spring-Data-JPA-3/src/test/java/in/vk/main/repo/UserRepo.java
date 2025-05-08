@@ -1,5 +1,6 @@
 package in.vk.main.repo;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.junit.jupiter.api.Test;
@@ -26,6 +27,13 @@ public class UserRepo {
 //		
 //	});
 	
+	int i = userRepository.countByName("Mannu");
+	System.out.println(i);
+	
+	List<User> ve = userRepository.findByNameContaining("ma");
+	ve.forEach(user ->{
+		System.out.println(user.getName());
+	});
 
 	userOptional.ifPresentOrElse(user ->{
 		System.out.println(user.getUser_id());

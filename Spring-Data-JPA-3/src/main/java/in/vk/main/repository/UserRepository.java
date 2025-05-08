@@ -13,6 +13,8 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 
 	//Custom Method to find the user by email according to jpa standards. 
 	//ReturnType findBy<Property>(Type value);
+	
+	//Query Methods
 	Optional<User> findByEmailOrderByNameAsc(String email);
 	List<User> findByName(String name);
 	
