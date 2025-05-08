@@ -91,3 +91,12 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 11:26:43.434
 !MESSAGE Boot project ADDED: Spring-Data-JPA-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 13:33:39.976
+!MESSAGE Classpath changed for project: Spring-Data-JPA-3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 13:33:45.061
+!MESSAGE Classpath changed for project: Spring-Data-JPA-3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-08 13:33:45.062
+!MESSAGE Boot project ADDED: Spring-Data-JPA-3
