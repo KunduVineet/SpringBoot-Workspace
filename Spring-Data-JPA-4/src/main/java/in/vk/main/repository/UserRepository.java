@@ -46,4 +46,14 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	public List<User> getUsersByEmailAndName(@Param("email") String email, @Param("name") String name);
 	
 
+	//HQL JPQL
+	
+	@Query(value = "SELECT u FROM User u")
+	public List<User> getUser();
+	
+	@Query(value = "SELECT u FROM User u where u.email = :email AND u.name =:name")
+	public List<User> getUserByEmail(@Param("email") String email);
+	
+	@Query(value = "SELECT u FROM User u WHERE u.address.country =:country")
+	public List<User> getUserByCountry(@Param("country") String country);
 }

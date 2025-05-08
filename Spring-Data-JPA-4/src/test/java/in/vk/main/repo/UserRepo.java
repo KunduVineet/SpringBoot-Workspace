@@ -44,4 +44,11 @@ public class UserRepo {
 		System.out.println("User not found");
 	});
 	}
+
+	@Test
+	public void repoTest2(){
+		List<User> india = userRepository.getUserByEmail("India");
+		System.out.println(india.size());
+	}
 }
+
