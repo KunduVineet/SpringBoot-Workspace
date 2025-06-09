@@ -27,7 +27,11 @@ public class SecurityConfig {
 			.successForwardUrl("/admin/add-results")
 			.failureForwardUrl("/user-login")
 			.permitAll(true);
-		}).logout(Customizer.withDefaults());
+		}).logout(logout ->{
+			logout.logoutUrl("/user-logout")
+			.logoutSuccessUrl("/user-login?logout")
+			.permitAll();
+		});
 		return build;
 		
 	}
