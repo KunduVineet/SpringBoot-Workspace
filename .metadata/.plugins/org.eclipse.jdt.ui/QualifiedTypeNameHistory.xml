@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="org.springframework.jdbc.object.UpdatableSqlQuery"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="javax.naming.spi.Resolver"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="in.vk.main.repository.LaptopRepo"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
 </qualifiedTypeNameHistroy>

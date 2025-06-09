@@ -1,6 +1,7 @@
 package in.vk.main.entities;
 
 import in.vk.main.dto.UserType;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
@@ -31,7 +32,7 @@ public class User {
 	@Embedded
 	private Address address;
 	
-	@OneToOne(mappedBy = "user")
+	@OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
 	private Laptop laptop;
 	
 	public Laptop getLaptop() {
@@ -90,6 +91,8 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+
 	
 	
 

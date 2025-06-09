@@ -20,8 +20,12 @@ public class MainTestConcepts {
 
     @Test
     public void testOneToOne() {
-        // Ensure a user exists
-        User user = userRepository.findById(1).orElseThrow(() -> new RuntimeException("User not found"));
+        // Create a new user if none exists
+        User user = userRepository.findById(1).orElse(new User());
+        if (user.getUser_id() == 0) {
+            user.setName("Test User");
+            user = userRepository.save(user);
+        }
 
         // Create a new laptop
         Laptop laptop = new Laptop();
@@ -32,7 +36,9 @@ public class MainTestConcepts {
         user.setLaptop(laptop);
         laptop.setUser(user);
 
-        // Save the user (or laptop, depending on cascade settings)
-        userRepository.save(user); // Assuming User is the owning side
+        // Save the user
+        userRepository.save(user);
+
+        System.out.println("Laptop added");
     }
 }
