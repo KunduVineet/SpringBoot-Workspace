@@ -23,6 +23,7 @@ public class SecurityConfig {
 		
 		http.formLogin(formLogin ->{
 			formLogin.loginPage("/login")
+			.loginProcessingUrl("/do-login")
 			.successForwardUrl("/admin/add-results")
 			.failureForwardUrl("/user-login")
 			.permitAll(true);
