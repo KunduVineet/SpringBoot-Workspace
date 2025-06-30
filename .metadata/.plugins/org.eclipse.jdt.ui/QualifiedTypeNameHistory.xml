@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.web.context.support.AnnotationConfigWebApplicationContext"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.ServletRegistration"/>
     <fullyQualifiedTypeName name="jakarta.servlet.ServletRegistration.Dynamic"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.DispatcherServlet"/>
     <fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
@@ -16,10 +14,7 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="in.vk.beans.Student"/>
     <fullyQualifiedTypeName name="in.vk.service.StudentService"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="org.springframework.security.web.DefaultSecurityFilterChain"/>
     <fullyQualifiedTypeName name="com.nimbusds.oauth2.sdk.http.HTTPRequest"/>
     <fullyQualifiedTypeName name="org.springframework.security.config.Customizer"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="org.springframework.ai.chat.client.ChatClient"/>
+    <fullyQualifiedTypeName name="org.springframework.ai.chat.client.ChatClient.Builder"/>
 </qualifiedTypeNameHistroy>
