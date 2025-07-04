@@ -1,6 +1,9 @@
 package in.vk.main.jwt;
 
+import java.security.Key;
 import java.util.Date;
+
+import javax.crypto.SecretKey;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,6 +12,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
 import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.io.Decoders;
+import io.jsonwebtoken.security.Keys;
 import jakarta.servlet.http.HttpServletRequest;
 
 @Component
@@ -35,9 +40,20 @@ public String generateTokenFromUsername(UserDetails userDetails) {
 	return Jwts.builder()
 			.subject(username)
 			.issuedAt(new Date())
-			.expiration(new Date((new Date)).getTime()+ jwtExpirationMs)
-			.signWithKey(key())
+			.expiration(new Date((new Date()).getTime()+ jwtExpirationMs))
+			.signWith(key())
 			.compact();
 }
+
+public String getUserNameFromJwtToken(String token) {
+	return Jwts.parser().verifyWith((SecretKey) key()).build().
+			parseSignedClaims(token).getPayload().getSubject();
+}
+
+private Key key() {
+	return Keys.hmacShaKeyFor(Decoders.BASE64.decode(jwtSecret));
+}
+
+
 
 }
