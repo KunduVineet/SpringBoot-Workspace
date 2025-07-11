@@ -60,6 +60,10 @@ public class JwtUtils {
     }
 
     public boolean validateJwtToken(String authToken) {
+    	if (authToken == null || authToken.trim().isEmpty()) {
+            logger.error("JWT token is null or empty");
+            return false;
+        }
         try {
             System.out.println("Validate");
             Jwts.parser().verifyWith((SecretKey) key()).build().parseSignedClaims(authToken);

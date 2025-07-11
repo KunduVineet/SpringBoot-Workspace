@@ -27,7 +27,7 @@ public class AuthTokenFilter extends OncePerRequestFilter{
 	@Autowired
 	private UserDetailsService userDetailsService;
 	
-	private static final Logger logger = LoggerFactory.getLogger(JwtUtils.class);
+	private static final Logger logger = LoggerFactory.getLogger(AuthTokenFilter.class);
 
 
 	@Override
@@ -35,32 +35,34 @@ public class AuthTokenFilter extends OncePerRequestFilter{
 			throws ServletException, IOException {
 		logger.debug("AuthTokenFilter called for URI: {}", request.getRequestURI());
 		try {
-			String jwt = parseJwt(request);
-			if(jwt != null && jwtUtils.validateJwtToken(jwt)) {
-				String username = jwtUtils.getUserNameFromJwtToken(jwt);
-				
-				UserDetails userDetails = userDetailsService.loadUserByUsername(username);
-				
-				UsernamePasswordAuthenticationToken authentication =
-						new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
-				
-				logger.debug("Roles from JWT: {}", userDetails.getAuthorities());
-				authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-				
-				SecurityContextHolder.getContext().setAuthentication(authentication);	
-			}	
-		}
-		catch(Exception e) {
-			logger.error("Cannot set user authentication:{}", e);
+		    String jwt = parseJwt(request);
+		    if (jwt != null && !jwt.trim().isEmpty() && jwtUtils.validateJwtToken(jwt)) {
+		        String username = jwtUtils.getUserNameFromJwtToken(jwt);
+		        UserDetails userDetails = userDetailsService.loadUserByUsername(username);
+		        UsernamePasswordAuthenticationToken authentication =
+		                new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+		        logger.debug("Roles from JWT: {}", userDetails.getAuthorities());
+		        authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+		        SecurityContextHolder.getContext().setAuthentication(authentication);
+		    } else {
+		        logger.warn("JWT token is invalid or missing");
+		    }
+		} catch (Exception e) {
+		    logger.error("Cannot set user authentication: {}", e.getMessage(), e);
 		}
 		
 		filterChain.doFilter(request, response);
 	}
 	
 	private String parseJwt(HttpServletRequest request) {
-		String jwt = jwtUtils.getJwtFromHeader(request);
-		logger.debug("AuthTokenFilter.java {}",jwt);
-		return jwt;
+	    String header = request.getHeader("Authorization");
+	    logger.debug("Authorization header: {}", header);
+	    String jwt = jwtUtils.getJwtFromHeader(request);
+	    logger.debug("Extracted JWT token: {}", jwt);
+	    if (jwt == null || jwt.trim().isEmpty()) {
+	        logger.warn("JWT token is null or empty");
+	    }
+	    return jwt;
 	}
 
 }
