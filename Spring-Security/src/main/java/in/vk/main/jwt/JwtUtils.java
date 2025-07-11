@@ -1,13 +1,17 @@
+// 1. Remove SecurityFilterChain dependency from JwtUtils
 package in.vk.main.jwt;
 
 import java.security.Key;
 import java.util.Date;
+
 import javax.crypto.SecretKey;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
+
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;
@@ -27,13 +31,10 @@ public class JwtUtils {
     @Value("${spring.app.jwtExpirationMs}")
     private int jwtExpirationMs;
 
-    public JwtUtils() {
-    }
-
     public String getJwtFromHeader(HttpServletRequest request) {
         String bearerToken = request.getHeader("Authorization");
-        logger.debug("Authorization Header :{}", bearerToken);
-        if (bearerToken != null && bearerToken.startsWith("Bearer ")) {
+        logger.debug("Authorization Header: {}", bearerToken);
+        if(bearerToken != null && bearerToken.startsWith("Bearer ")) {
             return bearerToken.substring(7);
         }
         return null;
@@ -63,15 +64,16 @@ public class JwtUtils {
             System.out.println("Validate");
             Jwts.parser().verifyWith((SecretKey) key()).build().parseSignedClaims(authToken);
             return true;
-        } catch (MalformedJwtException e) {
+        } catch(MalformedJwtException e) {
             logger.error("Invalid JWT Token: {}", e.getMessage());
-        } catch (ExpiredJwtException e) {
+        } catch(ExpiredJwtException e) {
             logger.error("JWT Token is Expired: {}", e.getMessage());
-        } catch (UnsupportedJwtException e) {
+        } catch(UnsupportedJwtException e) {
             logger.error("JWT Token is Unsupported: {}", e.getMessage());
-        } catch (IllegalArgumentException e) {
+        } catch(IllegalArgumentException e) {
             logger.error("JWT claims String is empty: {}", e.getMessage());
         }
+        
         return false;
     }
 }
