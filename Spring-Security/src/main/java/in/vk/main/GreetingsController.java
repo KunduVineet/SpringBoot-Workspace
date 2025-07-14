@@ -18,12 +18,14 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import in.vk.main.jwt.AuthEntryPointJwt;
 import in.vk.main.jwt.JwtUtils;
 
 @RestController
+@RequestMapping("/api")
 public class GreetingsController {
 	
 	@Autowired
@@ -56,33 +58,34 @@ public class GreetingsController {
 	}
 	
 	@PostMapping("/signin")
-	public ResponseEntity<?> authenticateUser(@RequestBody LoginRequest loginRequest){
-		Authentication authentication;
-		
-		try {
-			authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getUsername(),loginRequest.getPassword() ));
-			
-		} catch (AuthenticationException e) {
-			Map<String, Object> map = new HashMap<>();
-			map.put("Message", "Bad credentials");
-			map.put("status", false);
-			return new ResponseEntity<Object>(map, HttpStatus.NOT_FOUND);
-			
-		}
-		
-		SecurityContextHolder.getContext().setAuthentication(authentication);
-		
-		UserDetails userDetails = (UserDetails) authentication.getPrincipal();
-		
-		String jwtToken = jwtUtils.generateTokenFromUsername(userDetails);
-		
-		List<String> roles = userDetails.getAuthorities().stream()
-				.map(item -> item.getAuthority())
-				.collect(Collectors.toList());
-		
-		LoginResponse response = new LoginResponse(userDetails.getUsername(), jwtToken, roles);
-		
-		return ResponseEntity.ok(response);
+	public ResponseEntity<?> authenticateUser(@RequestBody LoginRequest loginRequest) {
+	    Authentication authentication;
+	    
+	    try {
+	        authentication = authenticationManager.authenticate(
+	            new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword())
+	        );
+	    } catch (AuthenticationException e) {
+	        Map<String, Object> map = new HashMap<>();
+	        map.put("Message", "Bad credentials");
+	        map.put("status", false);
+	        return new ResponseEntity<>(map, HttpStatus.NOT_FOUND);
+	    }
+	    
+	    SecurityContextHolder.getContext().setAuthentication(authentication);
+	    
+	    UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+	    
+	    String jwtToken = jwtUtils.generateTokenFromUsername(userDetails);
+	    
+	    List<String> roles = userDetails.getAuthorities().stream()
+	            .map(item -> item.getAuthority())
+	            .collect(Collectors.toList());
+	    
+	    // Ensure correct assignment
+	    LoginResponse response = new LoginResponse(jwtToken, userDetails.getUsername(), roles);
+	    
+	    return ResponseEntity.ok(response);
 	}
 
 
