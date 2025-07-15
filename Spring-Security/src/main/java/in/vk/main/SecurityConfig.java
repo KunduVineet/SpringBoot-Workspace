@@ -75,8 +75,8 @@ public class SecurityConfig {
     		}
     		
     		if(!manager.userExists("admin")) {
-    			UserDetails admin1 = User.withUsername("admin1")
-    	                .password(passwordEncoder().encode("admin1"))
+    			UserDetails admin1 = User.withUsername("admin4")
+    	                .password(passwordEncoder().encode("admin11"))
     	                .roles("ADMIN")
     	                .build();
     			

@@ -10642,3 +10642,42 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2025-07-15 21:57:04,013 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-07-15 21:57:04,025 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-07-15 21:57:04,031 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 21:58:16,556 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 21:58:16,564 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 21:58:16,570 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 21:58:39,702 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 21:58:39,727 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 21:58:39,731 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 21:58:50,441 [Worker-39: Launching Spring-Security - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 21:58:50,454 [Worker-39: Launching Spring-Security - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 21:58:50,459 [Worker-39: Launching Spring-Security - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 22:45:33,434 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 22:45:33,560 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 22:45:33,569 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 22:52:06,711 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 22:52:06,767 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 22:52:06,771 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 22:52:30,031 [Worker-59: Launching Spring-Security - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 22:52:30,038 [Worker-59: Launching Spring-Security - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 22:52:30,044 [Worker-59: Launching Spring-Security - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 22:55:51,153 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 22:55:51,163 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 22:55:51,166 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 23:04:49,326 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:04:49,356 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:04:49,361 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 23:06:23,012 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:06:23,061 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:06:23,064 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 23:06:31,192 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:06:31,202 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:06:31,206 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 23:06:39,500 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:06:39,507 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:06:39,511 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 23:09:50,844 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:09:50,877 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:09:50,892 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
+2025-07-15 23:10:05,537 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:10:05,561 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-15 23:10:05,570 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kundu\Dropbox\PC\Desktop\Spring SpringBoot\Spring-Security\src\test\resources
