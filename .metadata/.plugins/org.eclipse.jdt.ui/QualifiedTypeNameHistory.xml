@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="in.vk.main.dto.UserType"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Enumerated"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.EnumType"/>
     <fullyQualifiedTypeName name="java.lang.StackWalker.Option"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.NativeQuery"/>
@@ -51,7 +48,6 @@
     <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetailsService"/>
     <fullyQualifiedTypeName name="org.springframework.security.provisioning.JdbcUserDetailsManager"/>
     <fullyQualifiedTypeName name="in.vk.main.jwt.AuthTokenFilter"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.CorsRegistry"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextHolder"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker"/>
+    <fullyQualifiedTypeName name="org.springframework.web.socket.config.annotation.WebSocketConfigurer"/>
+    <fullyQualifiedTypeName name="org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer"/>
 </qualifiedTypeNameHistroy>
