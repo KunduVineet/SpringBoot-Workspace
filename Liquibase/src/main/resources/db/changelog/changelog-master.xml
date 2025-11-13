@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Liquibase Master Changelog -->
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+          http://www.liquibase.org/xml/ns/dbchangelog
+          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.15.xsd">
+
+    <!-- ========================================================= -->
+    <!-- Master changelog for the application                     -->
+    <!-- All feature changelogs are included below in sequence     -->
+    <!-- ========================================================= -->
+
+    <!-- Initial schema creation -->
+    <include file="db/changelog/changeset-001-init-schema.xml" relativeToChangelogFile="true"/>
+
+    <!-- Add Users table -->
+    <include file="db/changelog/changeset-002-add-users-table.xml" relativeToChangelogFile="true"/>
+
+    <!-- Add Orders table -->
+    <include file="db/changelog/changeset-003-add-orders-table.xml" relativeToChangelogFile="true"/>
+
+    <!-- Add relationships / indexes -->
+    <include file="db/changelog/changeset-004-add-foreign-keys.xml" relativeToChangelogFile="true"/>
+
+    <!-- Insert seed data (optional, dev/test only) -->
+    <include file="db/changelog/changeset-005-seed-data.xml" relativeToChangelogFile="true"/>
+
+</databaseChangeLog>
