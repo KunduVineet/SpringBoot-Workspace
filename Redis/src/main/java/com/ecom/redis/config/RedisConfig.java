@@ -29,7 +29,7 @@ public class RedisConfig {
         // This is now public again under the Jackson 2 bridge
         mapper.activateDefaultTyping(LaissezFaireSubTypeValidator.instance, ObjectMapper.DefaultTyping.NON_FINAL);
 
-        GenericJacksonJsonRedisSerializer jsonSerializer = new GenericJacksonJsonRedisSerializer(mapper);
+        GenericJacksonJsonRedisSerializer jsonSerializer = new GenericJacksonJsonRedisSerializer();
 
         template.setKeySerializer(new StringRedisSerializer());
         template.setValueSerializer(jsonSerializer);
